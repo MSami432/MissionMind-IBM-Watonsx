@@ -1,0 +1,16 @@
+# ─── WatsonX credentials (NEVER commit the real .env) ────────────────────────
+WATSONX_API_KEY=your_ibm_cloud_api_key_here
+WATSONX_PROJECT_ID=your_watsonx_project_id_here
+
+# Optional – defaults to us-south
+WATSONX_REGION=us-south
+
+# Optional – defaults to 3001
+PORT=3001
+
+# Optional – Vite dev-server origin for CORS
+ALLOWED_ORIGIN=http://localhost:5173
+WATSONX_API_KEY=apni_api_key_yahan_likhein
+WATSONX_PROJECT_ID=apna_project_id_yahan_likhein
+WATSONX_URL=https://us-south.ml.cloud.ibm.com
+

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-space-950 text-gray-100;
+    font-family: theme('fontFamily.mono');
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Thin scrollbars for anomaly log */
+  ::-webkit-scrollbar        { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track  { background: transparent; }
+  ::-webkit-scrollbar-thumb  { background: #1a2a4a; border-radius: 9999px; }
+  ::-webkit-scrollbar-thumb:hover { background: #243558; }
+}
+
+@layer utilities {
+  /* Extra animation used by the ping ring on CRITICAL sensor cards */
+  .animate-ping-once {
+    animation: ping 0.8s cubic-bezier(0, 0, 0.2, 1) forwards;
+  }
+}
