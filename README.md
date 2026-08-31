@@ -5,6 +5,11 @@
 MissionMind is an Explainable AI (XAI) decision-support platform engineered to bridge the telemetry chasm between heavy spacecraft data generation and human comprehension. Powered by **IBM watsonx.ai (Granite models)**, it acts as an intelligent mission assistant that continuously monitors live telemetry, detects operational anomalies, and generates actionable, explainable recommendations while keeping human operators in absolute command.
 
 ---
+## 🚨 The Problem
+Modern spacecraft generate massive amounts of low-level telemetry data. During critical moments, human operators face a "telemetry chasm"—the overwhelming cognitive load of manually decoding raw metrics, voltage drops, and error codes, which severely delays rapid decision-making.
+
+## 💡 The Solution
+MissionMind acts as an Explainable AI (XAI) mission assistant to bridge this gap. It leverages IBM Granite models to continuously monitor live data, suppress normal background noise, and instantly translate complex anomalies into plain-language, actionable briefings. It provides strategic recommendations while ensuring the human operator retains absolute command through a mandatory "Approve/Reject" decision log.
 
 ## 🚀 Key Features
 
